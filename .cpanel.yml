@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/asapcloud/public_html/territoriosdevida.asap-cloud.net/wp-content/themes/territorios-de-vida/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -R wp-content/themes/territorios-de-vida/. $DEPLOYPATH
