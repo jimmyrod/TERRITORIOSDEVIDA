@@ -1,0 +1,32 @@
+[
+  {
+    "file": "assets/img/hero-amazonia.jpg",
+    "source": "Imagen generada con herramienta integrada de Codex/OpenAI para este proyecto",
+    "license": "Activo generado para uso del proyecto; revisar y aprobar institucionalmente antes de producción",
+    "alt": "Vista aérea referencial de selva amazónica ecuatoriana con río sinuoso"
+  },
+  {
+    "file": "assets/img/rio-pastaza.jpg",
+    "source": "Imagen generada con herramienta integrada de Codex/OpenAI para este proyecto",
+    "license": "Activo generado para uso del proyecto; revisar y aprobar institucionalmente antes de producción",
+    "alt": "Paisaje referencial de río amazónico y bosque húmedo"
+  },
+  {
+    "file": "assets/img/flora-amazonia.jpg",
+    "source": "Imagen generada con herramienta integrada de Codex/OpenAI para este proyecto",
+    "license": "Activo generado para uso del proyecto; revisar y aprobar institucionalmente antes de producción",
+    "alt": "Detalle referencial de flora amazónica con hojas, helechos y orquídeas"
+  },
+  {
+    "file": "assets/img/fauna-hoatzin.jpg",
+    "source": "Imagen generada con herramienta integrada de Codex/OpenAI para este proyecto",
+    "license": "Activo generado para uso del proyecto; revisar y aprobar institucionalmente antes de producción",
+    "alt": "Hoatzin referencial en vegetación de ribera amazónica"
+  },
+  {
+    "file": "assets/concepts/concept-hero-header.png",
+    "source": "Concepto visual generado con herramienta integrada de Codex/OpenAI",
+    "license": "Referencia de diseño interna, no usar como UI final",
+    "alt": "Concepto de portada del sitio Territorios de Vida"
+  }
+]
