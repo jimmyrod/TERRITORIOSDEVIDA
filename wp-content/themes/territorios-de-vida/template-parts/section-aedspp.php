@@ -30,8 +30,8 @@ $zones = array(
 				</div>
 			</div>
 			<div class="map-panel" data-map-enhanced>
-				<div class="map-panel__canvas" role="img" aria-label="<?php esc_attr_e( 'Mapa referencial del AEDSPP en preparación con capas previstas de zonificación, nacionalidades, ríos, bloques petroleros y deforestación.', 'territorios-de-vida' ); ?>">
-					<span><?php esc_html_e( 'Mapa interactivo en preparación', 'territorios-de-vida' ); ?></span>
+				<div class="map-panel__canvas map-panel__canvas--image">
+					<img src="<?php echo esc_url( tdv_asset_uri( 'img/brochure-map.png' ) ); ?>" width="1133" height="907" alt="<?php esc_attr_e( 'Mapa de los Territorios de Vida y Gobernanza de las Nacionalidades de Pastaza extraído del brochure institucional.', 'territorios-de-vida' ); ?>">
 				</div>
 				<p><?php esc_html_e( 'Capas previstas: AEDSPP, zonificación, territorios de 7 nacionalidades, ríos, bloques petroleros y deforestación 2018-2020. Los archivos GeoJSON podrán cargarse desde /assets/geojson/.', 'territorios-de-vida' ); ?></p>
 			</div>
@@ -47,4 +47,3 @@ $zones = array(
 		</div>
 	</div>
 </section>
-

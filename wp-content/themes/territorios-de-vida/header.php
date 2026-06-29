@@ -22,7 +22,9 @@
 			<?php if ( has_custom_logo() ) : ?>
 				<span class="brand__logo"><?php the_custom_logo(); ?></span>
 			<?php else : ?>
-				<span class="brand__mark" aria-hidden="true"><?php echo tdv_inline_svg( 'leaf', 'brand__icon' ); ?></span>
+				<span class="brand__mark" aria-hidden="true">
+					<img src="<?php echo esc_url( tdv_asset_uri( 'img/logo-territorios-mark.png' ) ); ?>" width="64" height="64" alt="">
+				</span>
 			<?php endif; ?>
 			<span class="brand__text">
 				<strong><?php esc_html_e( 'TERRITORIOS DE VIDA', 'territorios-de-vida' ); ?></strong>
@@ -58,4 +60,3 @@
 	</div>
 </header>
 <main id="contenido-principal" class="site-main">
-

@@ -28,5 +28,65 @@
     "source": "Concepto visual generado con herramienta integrada de Codex/OpenAI",
     "license": "Referencia de diseño interna, no usar como UI final",
     "alt": "Concepto de portada del sitio Territorios de Vida"
+  },
+  {
+    "file": "assets/img/logo-territorios-mark.png",
+    "source": "Extraído de la primera página del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Símbolo oficial Territorios de Vida"
+  },
+  {
+    "file": "assets/img/logo-territorios-full.png",
+    "source": "Extraído de la primera página del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Logotipo Territorios de Vida y Gobernanza de las Nacionalidades de Pastaza"
+  },
+  {
+    "file": "assets/img/brochure-forest.jpg",
+    "source": "Extraído del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Vista aérea de bosque amazónico"
+  },
+  {
+    "file": "assets/img/brochure-map.png",
+    "source": "Extraído del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Mapa de los Territorios de Vida y Gobernanza de Pastaza"
+  },
+  {
+    "file": "assets/img/brochure-planning.jpg",
+    "source": "Extraído del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Trabajo de planificación territorial con mapas"
+  },
+  {
+    "file": "assets/img/brochure-cultural-leadership.jpg",
+    "source": "Extraído del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Representación de liderazgo cultural de las Nacionalidades"
+  },
+  {
+    "file": "assets/img/brochure-river.jpg",
+    "source": "Extraído del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Río amazónico al atardecer"
+  },
+  {
+    "file": "assets/img/brochure-ceramic.jpg",
+    "source": "Extraído del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Cerámica con rostro pintado"
+  },
+  {
+    "file": "assets/img/brochure-community.jpg",
+    "source": "Extraído del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Integrantes de comunidad en espacio de diálogo"
+  },
+  {
+    "file": "assets/img/brochure-assembly.jpg",
+    "source": "Extraído del brochure oficial Pastaza",
+    "license": "Material institucional proporcionado por el usuario",
+    "alt": "Asamblea comunitaria"
   }
 ]

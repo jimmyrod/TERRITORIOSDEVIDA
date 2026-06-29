@@ -14,6 +14,7 @@
 	<div class="hero-section__overlay"></div>
 	<div class="hero-section__content container">
 		<div class="hero-copy">
+			<img class="hero-logo-mark" src="<?php echo esc_url( tdv_asset_uri( 'img/logo-territorios-mark.png' ) ); ?>" width="160" height="160" alt="" aria-hidden="true">
 			<p class="hero-supertitle"><?php esc_html_e( 'GOBIERNO PROVINCIAL DE PASTAZA | PUYO, ECUADOR AMAZÓNICO | territoriosdevidapastaza.gob.ec', 'territorios-de-vida' ); ?></p>
 			<h1 aria-label="<?php esc_attr_e( 'Territorios de Vida', 'territorios-de-vida' ); ?>"><span><?php esc_html_e( 'Territorios de', 'territorios-de-vida' ); ?></span><span><?php esc_html_e( 'Vida', 'territorios-de-vida' ); ?></span></h1>
 			<p class="hero-subtitle"><?php esc_html_e( 'y Gobernanza de los Pueblos y Nacionalidades de la Provincia de Pastaza', 'territorios-de-vida' ); ?></p>
@@ -22,6 +23,7 @@
 			<div class="button-row">
 				<a class="button button--gold" href="#aedspp"><?php esc_html_e( 'Conoce el AEDSPP', 'territorios-de-vida' ); ?></a>
 				<a class="button button--outline" href="#programas"><?php esc_html_e( 'Plan Estratégico 2026-2029', 'territorios-de-vida' ); ?></a>
+				<a class="button button--outline" href="#brochure"><?php esc_html_e( 'Brochure institucional', 'territorios-de-vida' ); ?></a>
 			</div>
 		</div>
 		<div class="hero-stats" aria-label="<?php esc_attr_e( 'Indicadores principales del Consorcio', 'territorios-de-vida' ); ?>">

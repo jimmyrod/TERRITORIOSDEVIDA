@@ -140,12 +140,16 @@ a:hover {
 
 .brand__mark {
   display: grid;
-  width: 44px;
-  height: 44px;
+  width: 52px;
+  height: 52px;
   place-items: center;
   color: var(--color-dorado-tierra);
-  border: 1px solid rgba(216, 243, 220, .45);
-  border-radius: 50%;
+}
+
+.brand__mark img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
 }
 
 .brand__icon {
@@ -336,6 +340,13 @@ button.button {
   min-width: 0;
 }
 
+.hero-logo-mark {
+  width: clamp(84px, 9vw, 150px);
+  height: auto;
+  margin-bottom: 18px;
+  filter: drop-shadow(0 10px 26px rgba(0,0,0,.38));
+}
+
 .hero-stats,
 .hero-section__content > * {
   min-width: 0;
@@ -473,6 +484,11 @@ button.button {
 
 .section--biodiversity {
   background: #eef8f2;
+}
+
+.section--brochure {
+  background:
+    linear-gradient(180deg, var(--color-blanco), #f3f8f4 58%, var(--color-blanco));
 }
 
 .section--transparency {
@@ -690,6 +706,8 @@ h3 {
 .objective-card,
 .news-card,
 .bio-card,
+.project-card,
+.photo-card,
 .archive-card {
   border: 1px solid rgba(31, 41, 51, .08);
   border-radius: var(--radius-lg);
@@ -776,6 +794,256 @@ h3 {
   border-radius: 99px;
   background: rgba(0,0,0,.35);
   font-weight: 900;
+}
+
+.map-panel__canvas--image {
+  min-height: 0;
+  padding: 18px;
+  background: #eef5df;
+}
+
+.map-panel__canvas--image::before {
+  display: none;
+}
+
+.map-panel__canvas--image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.brochure-cover {
+  position: relative;
+  display: grid;
+  min-height: clamp(420px, 52vw, 640px);
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--color-selva-oscuro);
+  box-shadow: var(--shadow-soft);
+}
+
+.brochure-cover picture,
+.brochure-cover img {
+  width: 100%;
+  height: 100%;
+}
+
+.brochure-cover > picture {
+  position: absolute;
+  inset: 0;
+}
+
+.brochure-cover > picture img {
+  object-fit: cover;
+}
+
+.brochure-cover::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8, 28, 20, .08), rgba(8, 28, 20, .78));
+  content: "";
+}
+
+.brochure-cover__content {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  padding: 44px;
+}
+
+.brochure-cover__content img {
+  width: min(320px, 58vw);
+  height: auto;
+  filter: drop-shadow(0 14px 32px rgba(0,0,0,.45));
+}
+
+.brochure-facts,
+.brochure-columns,
+.brochure-list-layout,
+.brochure-map-layout,
+.project-card-grid,
+.brochure-gallery__grid {
+  display: grid;
+  gap: 18px;
+}
+
+.brochure-facts {
+  grid-template-columns: repeat(4, 1fr);
+  margin-block: 26px 42px;
+}
+
+.brochure-facts div {
+  min-height: 138px;
+  padding: 22px;
+  border-radius: var(--radius-lg);
+  background: var(--color-selva-oscuro);
+  color: var(--color-blanco);
+}
+
+.brochure-facts strong {
+  display: block;
+  color: var(--color-menta);
+  font-size: clamp(1.35rem, 2vw, 1.9rem);
+  line-height: 1.05;
+}
+
+.brochure-facts span {
+  display: block;
+  margin-top: 12px;
+  color: rgba(255,255,255,.82);
+  font-weight: 760;
+}
+
+.brochure-map-layout {
+  grid-template-columns: minmax(0, .9fr) minmax(360px, 1.1fr);
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.brochure-map {
+  margin: 0;
+  padding: 18px;
+  border: 1px solid rgba(27,67,50,.12);
+  border-radius: var(--radius-lg);
+  background: var(--color-blanco);
+  box-shadow: var(--shadow-sm);
+}
+
+.brochure-map img {
+  width: 100%;
+  height: auto;
+}
+
+.brochure-map figcaption {
+  margin-top: 12px;
+  color: var(--color-texto-suave);
+  font-size: .88rem;
+  font-weight: 750;
+}
+
+.brochure-columns,
+.brochure-list-layout {
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 26px;
+}
+
+.brochure-columns article,
+.brochure-list-layout > div,
+.logo-section,
+.brochure-projects,
+.brochure-gallery {
+  padding: 28px;
+  border: 1px solid rgba(31, 41, 51, .08);
+  border-radius: var(--radius-lg);
+  background: var(--color-blanco);
+  box-shadow: var(--shadow-sm);
+}
+
+.check-list {
+  display: grid;
+  gap: 10px;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 26px;
+  color: var(--color-texto-suave);
+}
+
+.check-list li::before {
+  position: absolute;
+  top: .55em;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-dorado-tierra);
+  content: "";
+}
+
+.logo-section,
+.brochure-projects,
+.brochure-gallery {
+  margin-top: 26px;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.logo-grid--members {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.logo-grid figure {
+  display: grid;
+  min-height: 120px;
+  margin: 0;
+  padding: 14px;
+  place-items: center;
+  border: 1px solid rgba(27,67,50,.1);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.logo-grid img {
+  max-height: 82px;
+  width: auto;
+  object-fit: contain;
+}
+
+.project-card-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project-card {
+  padding: 24px;
+}
+
+.project-card h4,
+.photo-card h4 {
+  margin: 0 0 10px;
+  color: var(--color-selva-oscuro);
+}
+
+.project-card strong {
+  display: block;
+  margin-top: 18px;
+  color: var(--color-cafe-tierra);
+}
+
+.brochure-gallery__grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.photo-card {
+  overflow: hidden;
+}
+
+.photo-card picture,
+.photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+
+.photo-card img {
+  object-fit: cover;
+}
+
+.photo-card div {
+  padding: 20px;
+}
+
+.photo-card p {
+  margin-bottom: 0;
+  color: var(--color-texto-suave);
 }
 
 .zone-grid {
@@ -1273,6 +1541,9 @@ textarea {
   .about-layout,
   .aedspp-grid,
   .section-heading--split,
+  .brochure-map-layout,
+  .brochure-columns,
+  .brochure-list-layout,
   .budget-layout,
   .contact-layout,
   .site-footer__inner {
@@ -1292,6 +1563,10 @@ textarea {
   .director-grid,
   .objective-grid,
   .bio-grid,
+  .brochure-facts,
+  .logo-grid,
+  .project-card-grid,
+  .brochure-gallery__grid,
   .document-filters,
   .archive-list--grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1318,8 +1593,13 @@ textarea {
   }
 
   .brand__mark {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .brand__mark img {
+    width: 42px;
+    height: 42px;
   }
 
   .brand__text strong {
@@ -1367,6 +1647,10 @@ textarea {
   .objective-grid,
   .bio-grid,
   .news-grid,
+  .brochure-facts,
+  .logo-grid,
+  .project-card-grid,
+  .brochure-gallery__grid,
   .document-filters {
     grid-template-columns: 1fr;
   }
@@ -1396,6 +1680,26 @@ textarea {
 
   .map-panel__canvas {
     min-height: 260px;
+  }
+
+  .map-panel__canvas--image {
+    min-height: 0;
+  }
+
+  .brochure-cover {
+    min-height: 420px;
+  }
+
+  .brochure-cover__content {
+    padding: 28px;
+  }
+
+  .brochure-columns article,
+  .brochure-list-layout > div,
+  .logo-section,
+  .brochure-projects,
+  .brochure-gallery {
+    padding: 22px;
   }
 
   table {

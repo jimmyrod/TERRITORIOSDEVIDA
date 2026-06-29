@@ -46,6 +46,7 @@ REQUIRED_FILES = [
 SECTION_PARTS = [
     "template-parts/hero.php",
     "template-parts/section-about.php",
+    "template-parts/section-brochure.php",
     "template-parts/section-aedspp.php",
     "template-parts/section-governance.php",
     "template-parts/section-nationalities.php",
@@ -105,7 +106,9 @@ CONTENT_MARKERS = [
     "2.541.836",
     "Consejo Plurinacional",
     "Plan Estratégico Institucional 2026",
-    "Mapa interactivo en preparación",
+    "brochure-map.png",
+    "Brochure institucional",
+    "Proyectos coejecutados",
     "TODO: Confirmar valor final del presupuesto",
 ]
 
